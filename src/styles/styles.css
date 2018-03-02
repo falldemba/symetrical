@@ -301,14 +301,31 @@ search field
     -fx-text-alignment: center;
     -fx-font-size:13;
 }
+.add-titledPane{
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+    -fx-font-size:13;
+}
+
 .blue-titledPane>.title{
-    -fx-background-color: #00BCD4,#00C0EF,#00BCD4;
+    -fx-background-color:#00BCD4,#00C0EF,#00BCD4;
     -fx-font-weight:bold;
     -fx-background-insets: 0, 0.1, 0.9;
     -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
     -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em;    
 }
 .blue-titledPane:focused > .title {
+    -fx-color: -blue-A400;
+}
+
+.add-titledPane>.title{
+    -fx-background-color: #9b59b6;/*#00BCD4,#00C0EF,#00BCD4;*/
+    -fx-font-weight:bold;
+    -fx-background-insets: 0, 0.1, 0.9;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+    -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em;    
+}
+.add-titledPane:focused > .title {
     -fx-color: -blue-A400;
 }
 
